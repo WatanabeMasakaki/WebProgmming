@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/common.css">
+<style type="text/css">
+p.example3 { text-align: center;
+             margin-top: 5px;
+             margin-bottom: 20px;
+             }
+p.example4 { text-align: center;
+             margin-top: 30px;
+             margin-bottom: 40px;
+             }
+</style>
+</head>
+<body>
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#" onClick="location.href='NewFile.html'">ログアウト</a></li>
+    <li class="breadcrumb-item active" aria-current="page">ユーザー名さん</li>
+  </ol>
+</nav>
+<button
+      type="button" class="btn btn-secondary" onClick="location.href='NewFile2.html'">新規登録
+</button>
+<div class="sample">
+	<p class="example3" >ユーザー一覧</p>
+</div>
+<div class="container" >
+  <div class="row">
+    <div class="col-md">
+      <h1>ログインID<br></h1>
+      <h1>ユーザー名<br></h1>
+      <h1>生年月日</h1>
+    </div>
+    <div class="col-md">
+      <h1><input type="text" name="name" form="example"><br></h1>
+      <h1><input type="text" name="name" form="example"><br></h1>
+      <h1><input type="text" name="name" form="example"></h1>
+    </div>
+  </div>
+</div>
+<div class="sample2">
+	<form method="post" action="example.cgi" id="example">
+	<p class="example4"><input type="submit" value="　　　検索　　　"></p>
+	</form>
+</div>
+<hr>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">ログインID</th>
+      <th scope="col">ユーザー名</th>
+      <th scope="col">生年月日</th>
+      <th scope="col">　　　　　　</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>渡邉正賢木</td>
+      <td>1988/8/4</td>
+      <td>
+          <input type="button" value="詳細" onClick="location.href='NewFile3.html'">
+          <input type="button" value="更新" onClick="location.href='NewFile4.html'">
+          <input type="button" value="削除" onClick="location.href='NewFile5.html'">
+      </td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
